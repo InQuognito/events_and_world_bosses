@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Cosmetic: ",
+				"color": "green",
+				"italic": false,
+				"extra": [
+					{
+						"text": "Light Sword - ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+							{
+								"text": "Pink",
+								"color": "purple",
+								"italic": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"text": "Drop to remove cosmetic",
+				"color": "light_purple",
+				"italic": false
+			}
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Cosmetic:[light_sword_pink]}"
+	}
+]

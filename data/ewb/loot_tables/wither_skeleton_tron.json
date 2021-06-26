@@ -1,0 +1,669 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:alternatives",
+			"children": [
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Energy",
+						  "color": "aqua",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_blue],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Blue",
+						  "color": "blue",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_dark_blue],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Gray",
+						  "color": "gray",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_gray],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Green",
+						  "color": "dark_green",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_green],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Lime",
+						  "color": "green",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_lime_green],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Magenta",
+						  "color": "light_purple",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_magenta],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Orange",
+						  "color": "gold",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_orange],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "light_purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Pink",
+						  "color": "light_purple",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_pink],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Purple",
+						  "color": "dark_purple",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_purple],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Red",
+						  "color": "red",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_red],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "White",
+						  "color": "white",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_white],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:carrot_on_a_stick",
+				"functions": [
+				  {
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+					  {
+						"text": "Made by Astraica",
+						"color": "yellow",
+						"italic": false
+					  },
+					  {
+						"text": "A sword made of pure energy.",
+						"color": "aqua",
+						"italic": false
+					  },
+					  {
+						"text": "Right click to equip",
+						"color": "purple",
+						"italic": false
+					  }
+					],
+					"replace": true
+				  },
+				  {
+					"function": "minecraft:set_name",
+					"entity": "this",
+					"name": {
+					  "text": "Light Sword - ",
+					  "color": "gold",
+					  "italic": false,
+					  "extra": [
+						{
+						  "text": "Yellow",
+						  "color": "yellow",
+						  "italic": false
+						}
+					  ]
+					}
+				  },
+				  {
+					"function": "minecraft:set_nbt",
+					"tag": "{Cosmetic:[light_sword_yellow],CustomModelData:2,Unbreakable:1,HideFlags:127}"
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.0833333333333
+				  }
+				]
+			  }
+			]
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:random_chance",
+			"chance": 0.075
+		  }
+		]
+	  }
+	]
+  }

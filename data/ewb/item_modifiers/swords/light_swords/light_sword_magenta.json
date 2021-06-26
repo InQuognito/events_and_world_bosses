@@ -32,6 +32,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cosmetic:[light_sword_magenta]}"
+		"tag": "{Cosmetic:[light_sword_magenta],CustomModelData:7,lightswordmagenta:1b}"
 	}
 ]

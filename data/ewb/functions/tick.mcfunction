@@ -1,6 +1,6 @@
-execute if predicate ewb:any_event run function ewb:any
-execute if predicate ewb:day_event unless score #any event matches 1 run function ewb:day
-execute if predicate ewb:night_event unless score #any event matches 1 run function ewb:night
+execute if predicate ewb:event_any run function ewb:any
+execute if predicate ewb:event_day unless score #any event matches 1 run function ewb:day
+execute if predicate ewb:event_night unless score #any event matches 1 run function ewb:night
 scoreboard players set #any event 0
 
 function ewb:tick/advancements

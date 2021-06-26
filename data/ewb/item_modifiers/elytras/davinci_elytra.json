@@ -1,0 +1,45 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Cosmetic: ",
+				"color": "green",
+				"italic": false,
+				"extra": [
+					{
+						"text": "Davinci's Elytra",
+						"color": "gold",
+						"italic": false
+					}
+				]
+			},
+			{
+				"text": "Drop to remove cosmetic",
+				"color": "light_purple",
+				"italic": false
+			}
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Cosmetic:[davinci_elytra],CustomModelData:1}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"chest": {
+							"items": [
+								"minecraft:elytra"
+							]
+						}
+					}
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,12 @@
+schedule clear ewb:any/acid_rain/effects
+schedule clear ewb:any/acid_rain/end
+schedule clear ewb:any/lightning_storm/end
+schedule clear ewb:any/lightning_storm/strike_lightning
+schedule clear ewb:any/lightning_storm/target_player
+schedule clear ewb:bosses/icarus/end
+schedule clear ewb:bosses/icarus/minions
+schedule clear ewb:day/heat_wave/end
+schedule clear ewb:night/blood_moon/end
+schedule clear ewb:night/dimensional_rift_nether/end
+schedule clear ewb:night/dimensional_rift_nether/mobs
+schedule clear ewb:night/dimensional_rift_nether/rift

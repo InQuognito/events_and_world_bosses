@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Afterburner",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Travel 5km by Elytra in the End.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "ewb:s1_afterburner"
+        ]
+    },
+	"parent": "ewb:s1/root"
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:advancement_reward",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Cosmetic:[davinci_elytra],CustomModelData:1,Unbreakable:1,display:{Name:'[{\"text\":\"Davinci\\'s Elytra\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"-- Season 1 Reward --\",\"italic\":false,\"color\":\"yellow\"}]','[{\"text\":\"A grand prototype glider\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"crafted by a master.\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Right click to equip\",\"italic\":false,\"color\":\"light_purple\"}]']},HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

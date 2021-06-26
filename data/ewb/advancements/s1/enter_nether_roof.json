@@ -1,0 +1,33 @@
+{
+	"display": {
+		"title": {
+			"text": "Breakthrough",
+			"color": "gold"
+		},
+		"description": {
+			"text": "Break into the Nether roof.",
+			"color": "green"
+		},
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"aboveNetherRoof": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "the_nether",
+				"position": {
+					"y": {
+						"min": 128
+					}
+				}
+			}
+		}
+	},
+	"parent": "ewb:s1/root"
+}

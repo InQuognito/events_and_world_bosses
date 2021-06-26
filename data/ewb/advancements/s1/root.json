@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Season 1 - Horizons",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "An exploration-focused season that rewards players for going above and beyond. Search for new horizons.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:calcite"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

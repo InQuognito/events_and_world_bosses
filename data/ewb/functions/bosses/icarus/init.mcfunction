@@ -10,4 +10,4 @@ function ewb:bosses/icarus/stats
 function ewb:bosses/icarus/announce
 
 schedule function ewb:bosses/icarus/minions 600t replace
-schedule function ewb:bosses/icarus/end 12000t replace
+schedule function ewb:bosses/icarus/end 11750t replace

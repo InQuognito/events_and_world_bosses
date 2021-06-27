@@ -1,11 +1,11 @@
 [
 	{
 		"condition": "minecraft:random_chance",
-		"chance": 0.10
+		"chance": 0.15
 	},
 	{
 		"condition": "minecraft:time_check",
-		"value": 12000,
+		"value": 12250,
 		"period": 24000
 	}
 ]

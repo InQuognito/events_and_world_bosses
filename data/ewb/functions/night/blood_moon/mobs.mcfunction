@@ -1,21 +1,15 @@
-execute at @a if predicate ewb:chance_25 run summon minecraft:zombie ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:zombie ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:zombie ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:skeleton ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:skeleton ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:skeleton ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:spider ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:spider ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_25 run summon minecraft:spider ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_10 run summon minecraft:creeper ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_10 run summon minecraft:creeper ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
-execute at @a if predicate ewb:chance_10 run summon minecraft:witch ~ ~25 ~ {Tags:["bloodMoon.mob","bloodMoon.unprocessed"],NoAI:1b,ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+scoreboard players set max random 12
+function ewb:rng/lcg
 
-execute as @e[tag=bloodMoon.unprocessed] at @s run spreadplayers ~ ~ 5 50 false @s
-
-execute as @e[tag=bloodMoon.unprocessed] run effect clear @s minecraft:invisibility
-execute as @e[tag=bloodMoon.unprocessed] run data remove entity @s NoAI
-
-execute as @e[tag=bloodMoon.unprocessed] run tag @s remove bloodMoon.unprocessed
-
-schedule function ewb:night/blood_moon/mobs 300t replace
+execute if score result random matches 0 at @s run summon minecraft:zombie ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 1 at @s run summon minecraft:zombie ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 2 at @s run summon minecraft:zombie ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 3 at @s run summon minecraft:skeleton ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 4 at @s run summon minecraft:skeleton ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 5 at @s run summon minecraft:skeleton ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 6 at @s run summon minecraft:spider ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 7 at @s run summon minecraft:spider ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 8 at @s run summon minecraft:spider ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 9 at @s run summon minecraft:creeper ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 10 at @s run summon minecraft:creeper ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}
+execute if score result random matches 11 at @s run summon minecraft:witch ~ ~ ~ {Tags:["bloodMoon.mob"],Health:30,Attributes:[{Name:"generic.max_health",Base:30d}]}

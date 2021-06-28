@@ -9,8 +9,49 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-- Season 1 Reward --",
+									"color": "yellow",
+									"italic": false
+								},
+								{
+									"text": "Made by Cubic_Wanderer",
+									"color": "yellow",
+									"italic": false
+								},
+								{
+									"text": "A grand prototype glider",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "crafted by a master.",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "Right click to equip",
+									"color": "light_purple",
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Davinci's Elytra",
+								"color": "gold",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Cosmetic:[davinci_elytra],CustomModelData:1,Unbreakable:1,display:{Name:'[{\"text\":\"Davinci\\'s Elytra\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"-- Season 1 Reward --\",\"italic\":false,\"color\":\"yellow\"}]','[{\"text\":\"A grand prototype glider\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"crafted by a master.\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Right click to equip\",\"italic\":false,\"color\":\"light_purple\"}]']},HideFlags:127}"
+							"tag": "{Cosmetic:[davinci_elytra],CustomModelData:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

@@ -11,4 +11,4 @@ tag @a remove heatWave.cool
 
 execute if score $lightningStorm event matches 1 at @e[type=minecraft:area_effect_cloud,tag=lightningStorm.strikeHere] run particle minecraft:end_rod ~ ~-0.25 ~ 0.01 0.01 0.01 0.25 1 normal @a
 
-execute if score $riftNether event matches 1 at @e[type=minecraft:area_effect_cloud,tag=riftNether.rift] run particle minecraft:flame ~ ~ ~ 0.3 1.3 0.3 0 15 normal @a
+execute if score $riftNether event matches 1 at @e[type=minecraft:area_effect_cloud,tag=riftNether.rift,tag=!riftNether.unprocessed] run particle minecraft:flame ~ ~ ~ 0.3 1.3 0.3 0 15 normal @a

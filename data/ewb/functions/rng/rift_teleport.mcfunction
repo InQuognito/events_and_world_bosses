@@ -23,9 +23,11 @@ execute if score result random matches 15 run data merge entity @s {Rotation:[33
 scoreboard players set max random 6
 function ewb:rng/lcg
 
-execute if score result random matches 0 run tp @s ^ ^ ^25
-execute if score result random matches 1 run tp @s ^ ^ ^30
-execute if score result random matches 2 run tp @s ^ ^ ^35
-execute if score result random matches 3 run tp @s ^ ^ ^40
-execute if score result random matches 4 run tp @s ^ ^ ^45
-execute if score result random matches 5 run tp @s ^ ^ ^50
+execute if score result random matches 0 at @s run tp @s ^ ^ ^25
+execute if score result random matches 1 at @s run tp @s ^ ^ ^30
+execute if score result random matches 2 at @s run tp @s ^ ^ ^35
+execute if score result random matches 3 at @s run tp @s ^ ^ ^40
+execute if score result random matches 4 at @s run tp @s ^ ^ ^45
+execute if score result random matches 5 at @s run tp @s ^ ^ ^50
+
+tag @e[tag=riftNether.unprocessed] remove riftNether.unprocessed

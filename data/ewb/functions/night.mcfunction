@@ -1,4 +1,4 @@
-scoreboard players set max random 1
+scoreboard players set max random 2
 function ewb:rng/lcg
 
 #execute if score result random matches 0 run function ewb:bosses/icarus/init

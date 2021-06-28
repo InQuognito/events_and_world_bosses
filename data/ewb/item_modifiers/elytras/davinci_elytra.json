@@ -16,6 +16,11 @@
 				]
 			},
 			{
+				"text": "Made by Cubic_Wanderer",
+				"color": "yellow",
+				"italic": false
+			},
+			{
 				"text": "Drop to remove cosmetic",
 				"color": "light_purple",
 				"italic": false

@@ -7,6 +7,7 @@ schedule clear ewb:bosses/icarus/end
 schedule clear ewb:bosses/icarus/minions
 schedule clear ewb:day/heat_wave/end
 schedule clear ewb:night/blood_moon/end
+schedule clear ewb:night/blood_moon/markers
 schedule clear ewb:night/blood_moon/mobs
 schedule clear ewb:any/dimensional_rift_nether/end
 schedule clear ewb:any/dimensional_rift_nether/mobs

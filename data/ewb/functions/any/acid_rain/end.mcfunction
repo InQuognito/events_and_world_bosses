@@ -1,5 +1,5 @@
 scoreboard players reset $acidRain event
-schedule clear ewb:any/acid_rain/effects
+function ewb:resets/schedule
 tellraw @a {"text":"The weather clears...","color":"gray"}
 
 weather clear

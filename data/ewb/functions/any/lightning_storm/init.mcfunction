@@ -3,4 +3,5 @@ tellraw @a [{"text":"The "},{"text":"Lightning Storm","color":"yellow","hoverEve
 schedule function ewb:any/lightning_storm/target_player 100t replace
 schedule function ewb:any/lightning_storm/end 11750t replace
 
+gamerule doWeatherCycle false
 weather thunder

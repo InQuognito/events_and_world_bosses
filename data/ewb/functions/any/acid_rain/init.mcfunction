@@ -3,4 +3,5 @@ tellraw @a [{"text":"The "},{"text":"Acid Rain","color":"yellow","hoverEvent":{"
 schedule function ewb:any/acid_rain/effects 40t replace
 schedule function ewb:any/acid_rain/end 11750t replace
 
+gamerule doWeatherCycle false
 weather rain

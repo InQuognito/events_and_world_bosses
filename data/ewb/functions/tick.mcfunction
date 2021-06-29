@@ -6,7 +6,6 @@ scoreboard players set #any event 0
 function ewb:tick/advancements
 function ewb:tick/cosmetics
 function ewb:tick/events
-function ewb:tick/kill_bosses
 
 # Bosses
 execute if score $icarus event matches 1 run function ewb:bosses/icarus/tick

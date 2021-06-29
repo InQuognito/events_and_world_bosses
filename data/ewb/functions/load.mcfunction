@@ -2,7 +2,8 @@ function ewb:resets/events
 function ewb:resets/schedule
 function ewb:resets/scoreboards
 
-bossbar add worldboss "World Boss"
+bossbar remove minecraft:worldboss
+bossbar add minecraft:worldboss ""
 
 bossbar set minecraft:worldboss color white
 bossbar set minecraft:worldboss max 1

@@ -1,4 +1,5 @@
 function ewb:resets/events
+function ewb:resets/gamerules
 function ewb:resets/schedule
 function ewb:resets/scoreboards
 

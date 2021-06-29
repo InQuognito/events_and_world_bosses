@@ -8,3 +8,8 @@ function ewb:tick/bosses
 function ewb:tick/cosmetics
 function ewb:tick/events
 function ewb:tick/evoker_scan
+
+execute as @e[type=item,nbt={Item:{id:"minecraft:glass_bottle"}}] if entity @e[type=experience_orb,limit=3,distance=1..2] run tag @s add to_xp_bottle
+execute at @e[type=item,tag=to_xp_bottle] run kill @e[type=experience_orb,limit=3,distance=1..2]
+execute at @e[type=item,tag=to_xp_bottle] run summon item ~ ~ ~ {Item:{id:"minecraft:experience_bottle"}}
+execute at @e[type=item,tag=to_xp_bottle] run tp @s ~ -6164 ~

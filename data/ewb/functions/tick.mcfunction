@@ -7,3 +7,4 @@ function ewb:tick/advancements
 function ewb:tick/bosses
 function ewb:tick/cosmetics
 function ewb:tick/events
+function ewb:tick/evoker_scan

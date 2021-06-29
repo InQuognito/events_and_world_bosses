@@ -1,0 +1,1 @@
+execute as @e[type=evoker,tag=!not_illusioner,sort=random] at @s run function ewb:void_impl/spawn_illusioners

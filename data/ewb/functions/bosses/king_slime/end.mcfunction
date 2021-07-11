@@ -1,13 +1,13 @@
-scoreboard players reset $icarus event
+scoreboard players reset $kingSlime event
 function ewb:resets/schedule
 
-tp @e[tag=icarus.boss] ~ ~-1000 ~
-tp @e[tag=icarus.minion] ~ ~-1000 ~
-kill @e[tag=icarus.boss]
-kill @e[tag=icarus.minion]
+tp @e[tag=kingSlime.boss] ~ ~-1000 ~
+tp @e[tag=kingSlime.minion] ~ ~-1000 ~
+kill @e[tag=kingSlime.boss]
+kill @e[tag=kingSlime.minion]
 
-execute unless score $icarus.dead event matches 1 run tellraw @a {"text":"The boss escapes...","color":"gray"}
-scoreboard players reset $icarus.dead event
+execute unless score $kingSlime.dead event matches 1 run tellraw @a {"text":"The boss escapes...","color":"gray"}
+scoreboard players reset $kingSlime.dead event
 
 bossbar set minecraft:worldboss color white
 bossbar set minecraft:worldboss max 1

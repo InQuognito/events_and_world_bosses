@@ -9,3 +9,6 @@ function ewb:tick/events
 
 # Bosses
 execute if score $icarus event matches 1 run function ewb:bosses/icarus/tick
+execute if score $kingSlime event matches 1 run function ewb:bosses/king_slime/tick
+execute if score $kingSlime event matches 1 if entity @e[tag=kingSlime.teleportHere] at @e[tag=kingSlime.teleportHere] run particle minecraft:nautilus ~ ~ ~ 0.5 0.5 0.5 1 5 normal @a
+execute if score $kingSlime event matches 1 if entity @e[tag=kingSlime.teleportHere] at @e[tag=kingSlime.boss] run particle minecraft:nautilus ~ ~ ~ 2.0 2.0 2.0 0.5 25 normal @a

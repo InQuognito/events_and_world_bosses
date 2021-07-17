@@ -27,7 +27,7 @@ gamerule maxCommandChainLength 65536
 gamerule maxEntityCramming 24
 gamerule mobGriefing true
 gamerule naturalRegeneration true
-gamerule playersSleepingPercentage 50
+gamerule playersSleepingPercentage 32
 gamerule randomTickSpeed 3
 gamerule reducedDebugInfo false
 gamerule sendCommandFeedback false

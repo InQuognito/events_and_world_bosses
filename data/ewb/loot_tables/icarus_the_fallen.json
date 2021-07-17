@@ -13,7 +13,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-- Boss Drop --",
+									"text": "-- Boss Cosmetic --",
 									"color": "yellow",
 									"italic": false
 								},
@@ -53,6 +53,80 @@
 			]
 		},
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-- Boss Relic --",
+									"color": "yellow",
+									"italic": false
+								},
+								{
+									"text": "A powerful artifact that can unleash",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "an enchanted book's true potential.",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "To use, put the book you want to upgrade",
+									"color": "light_purple",
+									"italic": false
+								},
+								{
+									"text": "in your offhand and right click this tome.",
+									"color": "light_purple",
+									"italic": false
+								},
+								{
+									"text": "Costs 30 XP Levels",
+									"color": "red",
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "|",
+								"color": "red",
+								"italic": false,
+								"obfuscated": true,
+								"extra": [
+									{
+										"text": " Ancient Tome ",
+										"obfuscated": false,
+										"extra": [
+											{
+												"text": "|",
+												"obfuscated": true
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Relic:[ancient_tome]}"
+						}
+					]
+				}
+			]
+		},
+		{
 			"rolls": {
 				"min": 32,
 				"max": 64
@@ -65,88 +139,6 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:phantom_membrane"
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 0,
-				"max": 2
-			},
-			"bonus_rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:enchanted_book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_randomly",
-							"enchantments": [
-								"minecraft:frost_walker",
-								"minecraft:mending",
-								"minecraft:soul_speed"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 1,
-				"max": 4
-			},
-			"bonus_rolls": {
-				"min": 0,
-				"max": 2
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:enchanted_book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_randomly",
-							"enchantments": [
-								"minecraft:aqua_affinity",
-								"minecraft:bane_of_arthropods",
-								"minecraft:blast_protection",
-								"minecraft:channeling",
-								"minecraft:depth_strider",
-								"minecraft:efficiency",
-								"minecraft:feather_falling",
-								"minecraft:fire_aspect",
-								"minecraft:fire_protection",
-								"minecraft:flame",
-								"minecraft:fortune",
-								"minecraft:impaling",
-								"minecraft:infinity",
-								"minecraft:knockback",
-								"minecraft:looting",
-								"minecraft:loyalty",
-								"minecraft:luck_of_the_sea",
-								"minecraft:lure",
-								"minecraft:multishot",
-								"minecraft:piercing",
-								"minecraft:power",
-								"minecraft:projectile_protection",
-								"minecraft:protection",
-								"minecraft:punch",
-								"minecraft:quick_charge",
-								"minecraft:respiration",
-								"minecraft:riptide",
-								"minecraft:sharpness",
-								"minecraft:smite",
-								"minecraft:silk_touch",
-								"minecraft:sweeping",
-								"minecraft:thorns",
-								"minecraft:unbreaking"
-							]
-						}
-					]
 				}
 			]
 		},

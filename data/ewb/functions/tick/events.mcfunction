@@ -8,11 +8,6 @@ execute if score $bloodMoon event matches 1 run tag @e[tag=bloodMoon.marker,sort
 execute if score $bloodMoon event matches 1 as @e[tag=bloodMoon.activeMarker] at @s run function ewb:events/night/blood_moon/mobs
 execute if score $bloodMoon event matches 1 run kill @e[tag=bloodMoon.activeMarker]
 
-execute if score $heatWave event matches 1 as @a[predicate=ewb:in_water] run tag @s add heatWave.cool
-execute if score $heatWave event matches 1 as @a[predicate=ewb:holding_ice] run tag @s add heatWave.cool
-execute if score $heatWave event matches 1 in minecraft:overworld as @a[tag=!heatWave.cool] at @s if blocks ~ ~2 ~ ~ 254 ~ ~ ~3 ~ masked run function ewb:events/day/heat_wave/effects
-execute if score $heatWave event matches 1 run tag @a remove heatWave.cool
-
 execute if score $lightningStorm event matches 1 at @e[tag=lightningStorm.strikeHere] run particle minecraft:end_rod ~ ~-0.25 ~ 0.01 0.01 0.01 0.25 1 normal @a
 
 execute if score $riftNether event matches 1 at @e[tag=riftNether.rift,tag=!riftNether.unprocessed] run particle minecraft:flame ~ ~ ~ 0.3 1.3 0.3 0 15 normal @a

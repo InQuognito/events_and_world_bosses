@@ -15,4 +15,4 @@ bossbar set minecraft:worldboss style progress
 bossbar set minecraft:worldboss value 0
 bossbar set minecraft:worldboss visible false
 
-tellraw @a [{"text":"Events and World Bosses","color":"green"},{"text":"\n"},{"text":"v0.5","color":"yellow"},{"text":"\n"},{"text":"Load Complete!","color":"green"}]
+tellraw @a [{"text":"Events and World Bosses","color":"green"},{"text":"\n"},{"text":"v0.51","color":"yellow"},{"text":"\n"},{"text":"Load Complete!","color":"green"}]

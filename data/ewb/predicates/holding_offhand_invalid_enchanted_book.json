@@ -1,0 +1,117 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"vanishing_curse\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:enchanted_book"
+						],
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
+					}
+				}
+			}
+		}
+	]
+}

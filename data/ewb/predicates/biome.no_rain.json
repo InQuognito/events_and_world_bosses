@@ -319,7 +319,7 @@
 			"predicate": {
 				"position": {
 					"y": {
-						"min": 256
+						"min": 465
 					}
 				},
 				"biome": "minecraft:plains"

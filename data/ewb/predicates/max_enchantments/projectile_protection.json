@@ -4,8 +4,11 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"items": [
-					"minecraft:enchanted_book"
+				"enchantments": [
+					{
+						"enchantment": "minecraft:projectile_protection",
+						"levels": 4
+					}
 				]
 			}
 		}

@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:entity",
+	"type": "minecraft:command",
 	"pools": [
 		{
 			"rolls": 1,
@@ -53,76 +53,14 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"text": "-- Boss Relic --",
-									"color": "yellow",
-									"italic": false
-								},
-								{
-									"text": "A powerful artifact that can unleash",
-									"color": "aqua",
-									"italic": false
-								},
-								{
-									"text": "an enchanted book's true potential.",
-									"color": "aqua",
-									"italic": false
-								},
-								{
-									"text": "To use, put the book you want to upgrade",
-									"color": "light_purple",
-									"italic": false
-								},
-								{
-									"text": "in your offhand and right click this tome.",
-									"color": "light_purple",
-									"italic": false
-								},
-								{
-									"text": "Costs 30 XP Levels",
-									"color": "red",
-									"italic": false
-								}
-							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"text": "|",
-								"color": "red",
-								"italic": false,
-								"obfuscated": true,
-								"extra": [
-									{
-										"text": " Ancient Tome ",
-										"obfuscated": false,
-										"extra": [
-											{
-												"text": "|",
-												"obfuscated": true
-											}
-										]
-									}
-								]
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Relic:[ancient_tome]}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ewb:ancient_tomes"
 				}
 			]
 		},
@@ -130,10 +68,6 @@
 			"rolls": {
 				"min": 32,
 				"max": 64
-			},
-			"bonus_rolls": {
-				"min": 8,
-				"max": 32
 			},
 			"entries": [
 				{
@@ -146,10 +80,6 @@
 			"rolls": {
 				"min": 64,
 				"max": 256
-			},
-			"bonus_rolls": {
-				"min": 16,
-				"max": 64
 			},
 			"entries": [
 				{

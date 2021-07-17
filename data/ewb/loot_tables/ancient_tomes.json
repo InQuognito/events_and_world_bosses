@@ -1,0 +1,2332 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Bane of Arthropods",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,bane_of_arthropods]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Blast Protection",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,blast_protection]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Depth Strider",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,depth_strider]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Efficiency",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,efficiency]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Feather Falling",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,feather_falling]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Fire Aspect",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,fire_aspect]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Fire Protection",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,fire_protection]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Fortune",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,fortune]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Frost Walker",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,frost_walker]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Impaling",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,impaling]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Knockback",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,knockback]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Looting",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,looting]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Loyalty",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,loyalty]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Luck of the Sea",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,luck_of_the_sea]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Lure",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,lure]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Piercing",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,piercing]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Power",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,power]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Projectile Protection",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,projectile_protection]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Protection",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,protection]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Punch",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,punch]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Quick Charge",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,quick_charge]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Respiration",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,respiration]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Riptide",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,riptide]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Sharpness",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,sharpness]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Smite",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,smite]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Soul Speed",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,soul_speed]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Sweeping Edge",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,sweeping]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Thorns",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,thorns]}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0344827586207
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"entity": "this",
+									"lore": [
+										{
+											"text": "-- Boss Relic --",
+											"color": "yellow",
+											"italic": false
+										},
+										{
+											"text": "Unbreaking",
+											"color": "green",
+											"italic": false
+										},
+										{
+											"text": "A powerful artifact that can unleash",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "an enchanted item's true potential.",
+											"color": "aqua",
+											"italic": false
+										},
+										{
+											"text": "To use, put the item you want to upgrade",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "in your offhand and right click this tome.",
+											"color": "light_purple",
+											"italic": false
+										},
+										{
+											"text": "Costs 30 XP Levels",
+											"color": "red",
+											"italic": false
+										}
+									],
+									"replace": false
+								},
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "|",
+										"color": "red",
+										"italic": false,
+										"obfuscated": true,
+										"extra": [
+											{
+												"text": " Ancient Tome ",
+												"obfuscated": false,
+												"extra": [
+													{
+														"text": "|",
+														"obfuscated": true
+													}
+												]
+											}
+										]
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1,Relic:[ancient_tome,unbreaking]}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

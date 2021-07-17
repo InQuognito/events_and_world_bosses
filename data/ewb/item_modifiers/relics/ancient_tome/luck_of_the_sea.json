@@ -1,0 +1,25 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:luck_of_the_sea": 4
+	},
+	"add": false,
+	"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:luck_of_the_sea",
+								"levels": 3
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

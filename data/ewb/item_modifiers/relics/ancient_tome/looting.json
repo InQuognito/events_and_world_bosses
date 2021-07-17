@@ -1,0 +1,25 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:looting": 4
+	},
+	"add": false,
+	"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:looting",
+								"levels": 3
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

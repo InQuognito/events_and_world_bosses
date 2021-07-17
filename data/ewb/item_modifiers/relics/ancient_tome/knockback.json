@@ -1,0 +1,25 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:knockback": 3
+	},
+	"add": false,
+	"conditions": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:knockback",
+								"levels": 2
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

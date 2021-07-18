@@ -1,0 +1,1 @@
+execute at @a[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{display:{Name:'[{"text":"Flame Shoes","italic":false,"color":"dark_red","bold":true}]'}}}]}] run fill ~ ~ ~ ~ ~ ~ fire keep

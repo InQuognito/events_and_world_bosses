@@ -1,0 +1,1 @@
+execute at @e[tag=952stand] unless entity @a[tag=tntinfect] run tag @p add tntinfect

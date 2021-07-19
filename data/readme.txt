@@ -17,4 +17,5 @@ new void tools?
 CUSTOM MODEL DATAS:
 they will always be in format of 6164XXX to prevent conflict
 6164001 - Essence of illusion
-6164002 - Concentrated Essence of Illusion
+6164002 - Grand Illusioner Model
+616400? - Concentrated Essence of Illusion

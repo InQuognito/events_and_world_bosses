@@ -1,0 +1,4 @@
+execute at @e[nbt={Trident:{id:"minecraft:trident",tag:{display:{Name:'{"bold":true,"italic":false,"color":"dark_green","text":"CC-829"}'}}}}] run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 redstone_lamp[lit=false] replace redstone_lamp
+execute at @e[nbt={Trident:{id:"minecraft:trident",tag:{display:{Name:'{"bold":true,"italic":false,"color":"dark_green","text":"CC-829"}'}}}}] run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 redstone_wire[power=0] replace redstone_wire
+execute at @e[nbt={Trident:{id:"minecraft:trident",tag:{display:{Name:'{"bold":true,"italic":false,"color":"dark_green","text":"CC-829"}'}}}}] run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 repeater[powered=false] replace repeater
+execute at @e[nbt={Trident:{id:"minecraft:trident",tag:{display:{Name:'{"bold":true,"italic":false,"color":"dark_green","text":"CC-829"}'}}}}] run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 redstone_torch[lit=false] replace redstone_torch

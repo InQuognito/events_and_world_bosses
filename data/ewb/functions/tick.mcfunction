@@ -20,3 +20,8 @@ execute if score $bloodMoon event matches 1 run function ewb:events/night/blood_
 # Bosses
 execute if score $icarus event matches 1 run function ewb:bosses/icarus/tick
 execute if score $kingSlime event matches 1 run function ewb:bosses/king_slime/tick
+
+# Upgrade Legacy Items
+scoreboard players enable @a fixItems
+execute as @a if score @s fixItems matches 1.. run function ewb:resets/update_legacy_items
+scoreboard players set @a[scores={fixItems=1..}] fixItems 0

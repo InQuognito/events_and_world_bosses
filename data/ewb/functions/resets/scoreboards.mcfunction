@@ -1,3 +1,7 @@
+# Utility
+scoreboard objectives remove fixItems
+scoreboard objectives add fixItems trigger
+
 # Generic
 scoreboard objectives remove event
 scoreboard objectives add event dummy

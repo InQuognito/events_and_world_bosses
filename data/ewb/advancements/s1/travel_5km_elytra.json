@@ -5,7 +5,7 @@
             "color": "gold"
         },
         "description": {
-            "text": "Travel 5km by Elytra in the End.",
+            "text": "Travel 5km by Elytra.",
             "color": "green"
         },
         "icon": {
@@ -23,7 +23,7 @@
     },
     "rewards": {
         "loot": [
-            "ewb:s1_afterburner"
+            "ewb:s1/afterburner"
         ]
     },
 	"parent": "ewb:s1/root"

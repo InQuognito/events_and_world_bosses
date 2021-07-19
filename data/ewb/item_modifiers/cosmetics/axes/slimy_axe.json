@@ -9,16 +9,11 @@
 				"italic": false,
 				"extra": [
 					{
-						"text": "Davinci's Elytra",
+						"text": "Slimy Axe",
 						"color": "gold",
 						"italic": false
 					}
 				]
-			},
-			{
-				"text": "Made by Cubic_Wanderer",
-				"color": "yellow",
-				"italic": false
 			},
 			{
 				"text": "Drop to remove cosmetic",
@@ -30,6 +25,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cosmetic:[davinci_elytra],CustomModelData:1}"
+		"tag": "{Cosmetic:[slimy_axe],CustomModelData:1}"
 	}
 ]

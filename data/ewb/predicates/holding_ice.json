@@ -1,15 +1,27 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": [
-					"minecraft:ice",
-					"minecraft:packed_ice",
-					"minecraft:blue_ice"
-				]
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"tag": "ewb:ice"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"tag": "ewb:ice"
+					}
+				}
 			}
 		}
-	}
+	]
 }

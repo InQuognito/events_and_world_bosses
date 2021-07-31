@@ -18,8 +18,8 @@ execute if score $slimeRain event matches 1 run function ewb:events/any/slime_ra
 execute if score $bloodMoon event matches 1 run function ewb:events/night/blood_moon/tick
 
 # Bosses
-execute if score $icarus event matches 1 run function ewb:bosses/icarus/tick
-execute if score $kingSlime event matches 1 run function ewb:bosses/king_slime/tick
+execute if score $icarus event matches 1..2 run function ewb:bosses/icarus/tick
+execute if score $kingSlime event matches 1..2 run function ewb:bosses/king_slime/tick
 
 # Upgrade Legacy Items
 scoreboard players enable @a fixItems

@@ -4,3 +4,5 @@ schedule function ewb:events/night/blood_moon/markers 300t replace
 schedule function ewb:events/night/blood_moon/end 11750t replace
 
 gamerule playersSleepingPercentage 101
+
+scoreboard players set $event event 1

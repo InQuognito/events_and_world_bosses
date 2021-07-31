@@ -43,3 +43,5 @@ execute if score result random matches 15 run tp @s ^ ^ ^1000
 execute if score $icarus event matches 1 as @s at @s run function ewb:bosses/icarus/stats
 
 execute as @s at @s run function ewb:bosses/announce
+
+say ran boss_teleport.mcfunction

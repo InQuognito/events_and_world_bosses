@@ -1,1 +1,1 @@
-execute at @e[tag=riftNether.rift,tag=!riftNether.unprocessed] run particle minecraft:flame ~ ~ ~ 0.3 1.3 0.3 0 15 normal @a
+execute at @e[tag=riftNether.rift] run particle minecraft:portal ~ ~1 ~ 0.15 0.5 0.15 0 15 normal @a

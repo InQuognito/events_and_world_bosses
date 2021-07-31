@@ -8,6 +8,8 @@ schedule clear ewb:bosses/king_slime/teleport
 schedule clear ewb:events/any/acid_rain/effects
 schedule clear ewb:events/any/acid_rain/end
 schedule clear ewb:events/any/dimensional_rift_nether/end
+schedule clear ewb:events/any/dimensional_rift_nether/marker
+schedule clear ewb:events/any/dimensional_rift_nether/mobs
 schedule clear ewb:events/any/dimensional_rift_nether/rift
 schedule clear ewb:events/any/lightning_storm/end
 schedule clear ewb:events/any/lightning_storm/strike_lightning

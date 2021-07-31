@@ -1,5 +1,6 @@
 execute if entity @s[tag=bane_of_arthropods] if predicate ewb:max_enchantments/bane_of_arthropods run item modify entity @s weapon.offhand ewb:relics/ancient_tome/bane_of_arthropods
 execute if entity @s[tag=blast_protection] if predicate ewb:max_enchantments/blast_protection run item modify entity @s weapon.offhand ewb:relics/ancient_tome/blast_protection
+execute if entity @s[tag=blast_protection] if predicate ewb:max_enchantments/depth_strider run item modify entity @s weapon.offhand ewb:relics/ancient_tome/depth_strider
 execute if entity @s[tag=depth_strider] if predicate ewb:max_enchantments/efficiency run item modify entity @s weapon.offhand ewb:relics/ancient_tome/efficiency
 execute if entity @s[tag=efficiency] if predicate ewb:max_enchantments/efficiency run item modify entity @s weapon.offhand ewb:relics/ancient_tome/efficiency
 execute if entity @s[tag=feather_falling] if predicate ewb:max_enchantments/feather_falling run item modify entity @s weapon.offhand ewb:relics/ancient_tome/feather_falling

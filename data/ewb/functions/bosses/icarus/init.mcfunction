@@ -16,3 +16,5 @@ bossbar set minecraft:worldboss players
 bossbar set minecraft:worldboss style progress
 bossbar set minecraft:worldboss value 1024
 bossbar set minecraft:worldboss visible true
+
+scoreboard players set $event event 1

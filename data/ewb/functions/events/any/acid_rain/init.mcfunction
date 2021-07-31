@@ -5,3 +5,5 @@ schedule function ewb:events/any/acid_rain/end 11750t replace
 
 gamerule doWeatherCycle false
 weather rain
+
+scoreboard players set $event event 1

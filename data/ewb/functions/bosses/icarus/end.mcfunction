@@ -1,4 +1,5 @@
 scoreboard players reset $icarus event
+scoreboard players reset $icarus.minionCount event
 function ewb:resets/schedule
 
 tp @e[tag=icarus.boss] ~ ~-1000 ~

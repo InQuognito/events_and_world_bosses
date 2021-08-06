@@ -1,6 +1,5 @@
 execute if entity @s[nbt={SelectedItem:{tag:{Relic:[bane_of_arthropods]}}}] if predicate ewb:max_enchantments/bane_of_arthropods run tag @s add bane_of_arthropods
 execute if entity @s[nbt={SelectedItem:{tag:{Relic:[blast_protection]}}}] if predicate ewb:max_enchantments/blast_protection run tag @s add blast_protection
-execute if entity @s[nbt={SelectedItem:{tag:{Relic:[depth_strider]}}}] if predicate ewb:max_enchantments/depth_strider run tag @s add depth_strider
 execute if entity @s[nbt={SelectedItem:{tag:{Relic:[efficiency]}}}] if predicate ewb:max_enchantments/efficiency run tag @s add efficiency
 execute if entity @s[nbt={SelectedItem:{tag:{Relic:[feather_falling]}}}] if predicate ewb:max_enchantments/feather_falling run tag @s add feather_falling
 execute if entity @s[nbt={SelectedItem:{tag:{Relic:[fire_aspect]}}}] if predicate ewb:max_enchantments/fire_aspect run tag @s add fire_aspect

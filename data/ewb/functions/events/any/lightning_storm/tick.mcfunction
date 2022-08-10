@@ -1,10 +1,6 @@
-execute at @e[tag=lightningStorm.strikeHere] run particle minecraft:end_rod ~ ~-0.25 ~ 0.01 0.01 0.01 0.25 1 normal @a
+particle minecraft:end_rod ~ ~ ~ 0.01 0.01 0.01 0.25 1 normal @a
 
-execute as @e[tag=lightningStorm.strikeHere,predicate=!ewb:equipment.metallic] run tag @s remove lightningStorm.strikeHere
+execute if entity @s[predicate=!ewb:equipment.metallic] run function ewb:events/any/lightning_storm/reset
 
-execute as @e[tag=lightningStorm.strikeHere] run scoreboard players add @s event 1
-execute at @e[tag=lightningStorm.strikeHere,scores={event=100..}] run summon minecraft:lightning_bolt ~ ~ ~
-execute as @e[tag=lightningStorm.strikeHere,scores={event=100..}] run tag @s remove lightningStorm.strikeHere
-execute as @e[tag=lightningStorm.strikeHere,scores={event=100..}] run scoreboard players reset @s event
-
-execute as @e[tag=!lightningStorm.strikeHere,scores={event=0..}] run scoreboard players reset @s event
+scoreboard players add @s timer 1
+execute if score @s timer matches 100.. run function ewb:events/any/lightning_storm/strike

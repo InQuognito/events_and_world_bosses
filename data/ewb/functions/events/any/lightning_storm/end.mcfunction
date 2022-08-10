@@ -1,5 +1,6 @@
-scoreboard players reset $lightningStorm event
-function ewb:resets/schedule
+scoreboard players reset * event
+function ewb:logic/resets/schedule
+
 tellraw @a {"text":"The storm lifts...","color":"gray"}
 
 kill @e[tag=lightningStorm.strikeHere]

@@ -1,0 +1,37 @@
+difficulty hard
+
+gamerule announceAdvancements true
+gamerule commandBlockOutput false
+gamerule disableElytraMovementCheck false
+gamerule disableRaids false
+gamerule doDaylightCycle true
+gamerule doEntityDrops true
+gamerule doFireTick false
+gamerule doImmediateRespawn false
+gamerule doInsomnia true
+gamerule doLimitedCrafting false
+gamerule doMobLoot true
+gamerule doMobSpawning true
+gamerule doPatrolSpawning true
+gamerule doTileDrops true
+gamerule doTraderSpawning true
+gamerule doWeatherCycle true
+gamerule drowningDamage true
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule forgiveDeadPlayers true
+gamerule freezeDamage true
+gamerule keepInventory false
+gamerule logAdminCommands false
+gamerule maxCommandChainLength 65536
+gamerule maxEntityCramming 24
+gamerule mobGriefing true
+gamerule naturalRegeneration true
+gamerule playersSleepingPercentage 25
+gamerule randomTickSpeed 3
+gamerule reducedDebugInfo false
+gamerule sendCommandFeedback false
+gamerule showDeathMessages true
+gamerule spawnRadius 10
+gamerule spectatorsGenerateChunks false
+gamerule universalAnger false

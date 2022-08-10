@@ -1,5 +1,10 @@
 # Update Bossbar
-execute as @e[tag=icarus.boss] store result bossbar minecraft:worldboss value run data get entity @s Health
-execute at @e[tag=icarus.boss] run bossbar set minecraft:worldboss players @a[distance=..150]
+execute store result bossbar minecraft:worldboss value run data get entity @s Health
+bossbar set minecraft:worldboss players @a[distance=..200]
 
-execute if entity @a[advancements={ewb:killed_boss=true}] run function ewb:bosses/icarus/death
+# Timers
+scoreboard players add @s timer 1
+execute if score @s timer >= bossDespawnTime vars run function ewb:bosses/end
+
+scoreboard players add @s timer.minions 1
+execute if score @s timer.minions >= icarusMinions vars run function ewb:bosses/icarus/minions

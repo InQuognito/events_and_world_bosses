@@ -1,5 +1,6 @@
-scoreboard players reset $bloodMoon event
-function ewb:resets/schedule
+scoreboard players reset * event
+function ewb:logic/resets/schedule
+
 tellraw @a {"text":"The sun rises...","color":"gray"}
 
-gamerule playersSleepingPercentage 32
+function ewb:logic/resets/gamerules

@@ -1,5 +1,4 @@
-execute if score $slimeRain event matches 1 run tellraw @a {"text":"Slime stops falling from the sky...","color":"gray"}
+execute if score slimeRain event matches 1 run tellraw @a {"text":"Slime stops falling from the sky...","color":"gray"}
 
-scoreboard players reset $slimeRain event
-scoreboard players reset $slimeRain.kills event
-function ewb:resets/schedule
+scoreboard players reset * event
+function ewb:logic/resets/schedule

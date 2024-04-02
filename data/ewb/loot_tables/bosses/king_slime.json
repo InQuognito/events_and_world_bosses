@@ -12,6 +12,15 @@
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
 								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slime Crown",
+										"color": "gold",
+										"italic": false
+									}
+								},
+								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
 									"lore": [
@@ -39,23 +48,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slime Crown",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slime_crown],CustomModelData:10,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.166666666667
+									"tag": "{cosmetic:[slime_crown],CustomModelData:10,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						},
@@ -63,6 +57,15 @@
 							"type": "minecraft:item",
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slimy Sword",
+										"color": "gold",
+										"italic": false
+									}
+								},
 								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
@@ -91,23 +94,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Sword",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slimy_sword],CustomModelData:18,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.166666666667
+									"tag": "{cosmetic:[slimy_sword],CustomModelData:18,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						},
@@ -115,6 +103,15 @@
 							"type": "minecraft:item",
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slimy Pickaxe",
+										"color": "gold",
+										"italic": false
+									}
+								},
 								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
@@ -143,23 +140,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Pickaxe",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slimy_pickaxe],CustomModelData:14,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.166666666667
+									"tag": "{cosmetic:[slimy_pickaxe],CustomModelData:14,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						},
@@ -167,6 +149,15 @@
 							"type": "minecraft:item",
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slimy Axe",
+										"color": "gold",
+										"italic": false
+									}
+								},
 								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
@@ -195,23 +186,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Axe",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slimy_axe],CustomModelData:2,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.166666666667
+									"tag": "{cosmetic:[slimy_axe],CustomModelData:2,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						},
@@ -219,6 +195,15 @@
 							"type": "minecraft:item",
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slimy Shovel",
+										"color": "gold",
+										"italic": false
+									}
+								},
 								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
@@ -247,23 +232,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Shovel",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slimy_shovel],CustomModelData:17,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.166666666667
+									"tag": "{cosmetic:[slimy_shovel],CustomModelData:17,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						},
@@ -271,6 +241,15 @@
 							"type": "minecraft:item",
 							"name": "minecraft:carrot_on_a_stick",
 							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"entity": "this",
+									"name": {
+										"text": "Slimy Hoe",
+										"color": "gold",
+										"italic": false
+									}
+								},
 								{
 									"function": "minecraft:set_lore",
 									"entity": "this",
@@ -299,23 +278,8 @@
 									"replace": true
 								},
 								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Hoe",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
 									"function": "minecraft:set_nbt",
-									"tag": "{Cosmetic:[slimy_hoe],CustomModelData:18,Unbreakable:1,HideFlags:127}"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 1.0
+									"tag": "{cosmetic:[slimy_hoe],CustomModelData:18,Unbreakable:1,HideFlags:127}"
 								}
 							]
 						}

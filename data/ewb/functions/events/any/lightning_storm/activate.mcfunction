@@ -1,4 +1,4 @@
-scoreboard players set lightningStorm event 1
+scoreboard players set lightning_storm event 1
 
 tellraw @a [{"text":"The "},{"text":"Lightning Storm","color":"yellow","hoverEvent":{"action":"show_text","contents":"During this event, lightning strikes occur more frequently and target players holding or wearing metallic objects!"}},{"text":" event has begun!"}]
 

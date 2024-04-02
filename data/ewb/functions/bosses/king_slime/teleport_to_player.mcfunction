@@ -1,4 +1,5 @@
-tp @e[tag=boss] @s
-kill @s
+teleport @s ~ ~ ~
 
-scoreboard players reset @e[tag=boss] timer2
+scoreboard players reset @s timer
+
+kill @e[type=minecraft:marker,tag=king_slime.teleport_here]

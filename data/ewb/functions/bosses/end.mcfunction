@@ -1,15 +1,15 @@
 scoreboard players reset * event
-function ewb:logic/resets/schedule
+function ewb:logic/init/schedule
 
-tp @e[tag=boss] ~ ~-1000 ~
-tp @e[tag=minion] ~ ~-1000 ~
-kill @e[tag=boss]
-kill @e[tag=minion]
+function ewb:logic/kill
+execute as @e[tag=minion] run function ewb:logic/kill
 
-execute unless score bossDead temp matches 1 run tellraw @a {"text":"The boss escapes...","color":"gray"}
+execute unless score boss_dead temp matches 1 run tellraw @a {"text":"The boss escapes...","color":"gray"}
 
 scoreboard players reset * temp
 
-function ewb:logic/resets/bossbars
+function ewb:logic/init/bossbars
+
+schedule clear ewb:bosses/end
 
 advancement revoke @a through ewb:utility/roots/boss

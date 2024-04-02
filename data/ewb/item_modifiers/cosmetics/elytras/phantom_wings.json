@@ -25,6 +25,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cosmetic:[phantom_wings],CustomModelData:2}"
+		"tag": "{cosmetic:[phantom_wings],cosmetic_applied:1b,CustomModelData:2}"
 	}
 ]

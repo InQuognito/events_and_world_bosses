@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:reference",
+				"name": "ewb:in_overworld"
+			}
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ewb:in_water"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ewb:holding_ice"
+		}
+	]
+}

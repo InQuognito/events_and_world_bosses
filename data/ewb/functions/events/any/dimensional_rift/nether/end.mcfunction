@@ -1,9 +1,8 @@
 scoreboard players reset * event
-function ewb:logic/resets/schedule
+function ewb:logic/init/schedule
 
 tellraw @a {"text":"Reality stabilizes...","color":"gray"}
 
-kill @e[tag=dimensionalRift.nether]
+kill @e[type=minecraft:marker,tag=dimensional_rift.nether]
 
-tp @e[type=#ewb:mobs/nether] ~ ~-1000 ~
-kill @e[type=#ewb:mobs/nether]
+execute as @e[predicate=ewb:events/dimensional_rift/nether] run function ewb:logic/kill

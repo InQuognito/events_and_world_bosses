@@ -1,0 +1,60 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "|",
+			"color": "red",
+			"italic": false,
+			"obfuscated": true,
+			"extra": [
+				{
+					"text": " Ancient Tome ",
+					"obfuscated": false,
+					"extra": [
+						{
+							"text": "|",
+							"obfuscated": true
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "A powerful artifact that can unleash",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"text": "an enchanted item's true potential.",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"text": "To use, put the item you want to upgrade",
+				"color": "light_purple",
+				"italic": false
+			},
+			{
+				"text": "in your offhand and right click this tome.",
+				"color": "light_purple",
+				"italic": false
+			},
+			{
+				"text": "Costs 30 XP Levels",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1}"
+	}
+]

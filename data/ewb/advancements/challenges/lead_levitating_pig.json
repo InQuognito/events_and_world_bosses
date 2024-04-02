@@ -1,0 +1,43 @@
+{
+	"display": {
+		"title": {
+			"text": "An Odd Balloon",
+			"color": "gold"
+		},
+		"description": {
+			"text": "Carry a pig by a lead... while it is levitating.",
+			"color": "green"
+		},
+		"icon": {
+			"item": "minecraft:lead"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"use_lead_on_levitating_pig": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lead"
+				},
+				"entity": {
+					"type": "minecraft:pig",
+					"effects": {
+						"minecraft:levitation": {
+							"amplifier": {
+								"min": 0
+							},
+							"duration": {
+								"min": 0
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "minecraft:end/levitate"
+}

@@ -1,0 +1,38 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:events/blood_moon/equipment/swords",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:events/blood_moon/equipment/pickaxes",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:events/blood_moon/equipment/axes",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:events/blood_moon/equipment/shovels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:events/blood_moon/equipment/hoes",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 5
+				}
+			]
+		}
+	]
+}

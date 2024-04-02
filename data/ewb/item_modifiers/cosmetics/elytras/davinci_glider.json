@@ -30,6 +30,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cosmetic:[davinci_glider],CustomModelData:1}"
+		"tag": "{cosmetic:[davinci_glider],cosmetic_applied:1b,CustomModelData:1}"
 	}
 ]

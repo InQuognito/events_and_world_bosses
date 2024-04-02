@@ -1,7 +1,7 @@
-scoreboard players set max random 2
-function ewb:rng/lcg
+loot replace entity @s weapon.mainhand loot ewb:events/blood_moon/skeleton
 
-execute if score result random matches 0 run summon minecraft:skeleton ~ ~ ~ {Tags:["bloodMoon.mob"],Health:35,Attributes:[{Name:"generic.max_health",Base:30d}],HandItems:[{id:"minecraft:bow",tag:{Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:1}]},Count:1}],HandDropChances:[0F]}
-execute if score result random matches 1 run summon minecraft:skeleton ~ ~ ~ {Tags:["bloodMoon.mob"],Health:35,Attributes:[{Name:"generic.max_health",Base:30d}],HandItems:[{id:"minecraft:bow",tag:{Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:2}]},Count:1}],HandDropChances:[0F]}
+attribute @s minecraft:generic.max_health base set 30.0
 
-execute as @e[tag=bloodMoon.mob,tag=modify] run function ewb:events/night/blood_moon/mobs/give_armor
+data merge entity @s {Health:30,HandDropChances:[0f,0f]}
+
+function ewb:events/night/blood_moon/mobs/init

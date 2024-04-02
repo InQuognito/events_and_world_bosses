@@ -1,1 +1,5 @@
-summon minecraft:witch ~ ~ ~ {Tags:["bloodMoon.mob"],Health:40,Attributes:[{Name:"generic.max_health",Base:30d}]}
+attribute @s minecraft:generic.max_health base set 30.0
+
+data merge entity @s {Health:30}
+
+function ewb:events/night/blood_moon/mobs/init

@@ -1,4 +1,4 @@
-scoreboard players set heatWave event 1
+scoreboard players set heat_wave event 1
 
 tellraw @a [{"text":"The "},{"text":"Heat Wave","color":"yellow","hoverEvent":{"action":"show_text","contents":"During this event, being out in the sun will cause adverse effects to the player unless they are holding ice or wading in water."}},{"text":" event has begun!"}]
 

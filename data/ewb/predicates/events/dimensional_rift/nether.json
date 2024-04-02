@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "#ewb:mobs/nether",
+		"nbt": "{Tags:[\"dimensional_rift.nether\"]}"
+	}
+}

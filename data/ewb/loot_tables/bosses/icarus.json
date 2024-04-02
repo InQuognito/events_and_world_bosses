@@ -1,0 +1,89 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Phantom Wings",
+								"color": "gold",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-- Boss Cosmetic --",
+									"color": "yellow",
+									"italic": false
+								},
+								{
+									"text": "Wings ripped straight from the",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "back of a giant phantom.",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"text": "Right click to equip",
+									"color": "light_purple",
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cosmetic:[phantom_wings],CustomModelData:7,Unbreakable:1b,HideFlags:127}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ewb:ancient_tomes"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 32,
+				"max": 64
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:phantom_membrane"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 64,
+				"max": 256
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle"
+				}
+			]
+		}
+	]
+}

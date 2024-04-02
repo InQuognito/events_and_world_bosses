@@ -1,15 +1,7 @@
-scoreboard players set max random 12
-function ewb:rng/lcg
+execute store result score random.output temp run random value 1..12
 
-execute if score result random matches 0 run function ewb:events/night/blood_moon/mobs/zombie
-execute if score result random matches 1 run function ewb:events/night/blood_moon/mobs/zombie
-execute if score result random matches 2 run function ewb:events/night/blood_moon/mobs/zombie
-execute if score result random matches 3 run function ewb:events/night/blood_moon/mobs/skeleton
-execute if score result random matches 4 run function ewb:events/night/blood_moon/mobs/skeleton
-execute if score result random matches 5 run function ewb:events/night/blood_moon/mobs/skeleton
-execute if score result random matches 6 run function ewb:events/night/blood_moon/mobs/spider
-execute if score result random matches 7 run function ewb:events/night/blood_moon/mobs/spider
-execute if score result random matches 8 run function ewb:events/night/blood_moon/mobs/spider
-execute if score result random matches 9 run function ewb:events/night/blood_moon/mobs/creeper
-execute if score result random matches 10 run function ewb:events/night/blood_moon/mobs/creeper
-execute if score result random matches 11 run function ewb:events/night/blood_moon/mobs/witch
+execute if score random.output temp matches 1..3 summon minecraft:zombie run function ewb:events/night/blood_moon/mobs/zombie
+execute if score random.output temp matches 4..6 summon minecraft:skeleton run function ewb:events/night/blood_moon/mobs/skeleton
+execute if score random.output temp matches 7..9 summon minecraft:spider run function ewb:events/night/blood_moon/mobs/spider
+execute if score random.output temp matches 10..11 summon minecraft:creeper run function ewb:events/night/blood_moon/mobs/creeper
+execute if score random.output temp matches 12 summon minecraft:witch run function ewb:events/night/blood_moon/mobs/witch

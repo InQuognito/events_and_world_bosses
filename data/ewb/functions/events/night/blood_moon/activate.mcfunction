@@ -1,4 +1,4 @@
-scoreboard players set bloodMoon event 1
+scoreboard players set blood_moon event 1
 
 tellraw @a [{"text":"The "},{"text":"Blood Moon","color":"yellow","hoverEvent":{"action":"show_text","contents":"During this event, you cannot sleep through the night and buffed mobs spawn periodically! These mobs are marked by particles and have increased health and damage."}},{"text":" event has begun!"}]
 

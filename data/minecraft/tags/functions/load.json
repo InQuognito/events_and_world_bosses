@@ -1,6 +1,5 @@
 {
-  "values": [
-    "ewb:load",
-    "ewb:rng/load"
-  ]
+	"values": [
+		"ewb:load"
+	]
 }

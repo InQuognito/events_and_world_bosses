@@ -4,13 +4,27 @@
 		"requirement": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "slime_rain"
+							},
+							"score": "event"
+						},
+						"range": 1
+					}
+				],
 				"entity": [
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"type": "minecraft:slime",
-							"nbt": "{Tags:[\"slimeRain\"]}"
+							"nbt": "{Tags:[\"slime_rain\"]}"
 						}
 					}
 				]

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Afterburner",
+			"color": "gold"
+		},
+		"description": {
+			"text": "Travel 5km by Elytra.",
+			"color": "green"
+		},
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"loot": [
+			"ewb:challenges/travel_5km_elytra"
+		]
+	},
+"parent": "minecraft:end/elytra"
+}

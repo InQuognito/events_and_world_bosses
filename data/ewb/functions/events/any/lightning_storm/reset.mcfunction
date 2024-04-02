@@ -1,2 +1,3 @@
-tag @s remove lightningStorm.strikeHere
-scoreboard players reset @s event
+tag @s remove lightning_storm.target
+
+scoreboard players reset @s timer

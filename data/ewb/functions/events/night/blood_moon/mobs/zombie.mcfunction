@@ -1,3 +1,9 @@
-summon minecraft:zombie ~ ~ ~ {Tags:["bloodMoon.mob","modify"],Health:40,Attributes:[{Name:"generic.max_health",Base:30d}]}
+loot replace entity @s weapon.mainhand loot ewb:events/blood_moon/zombie/mainhand
 
-execute as @e[tag=bloodMoon.mob,tag=modify] run function ewb:events/night/blood_moon/mobs/give_armor
+loot replace entity @s weapon.offhand loot ewb:events/blood_moon/zombie/offhand
+
+attribute @s minecraft:generic.max_health base set 30.0
+
+data merge entity @s {Health:30,HandDropChances:[0f,0f]}
+
+function ewb:events/night/blood_moon/mobs/init

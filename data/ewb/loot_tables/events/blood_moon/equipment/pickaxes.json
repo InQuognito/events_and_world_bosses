@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:iron_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:golden_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:stone_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:wooden_pickaxe"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 6
+				}
+			]
+		}
+	]
+}

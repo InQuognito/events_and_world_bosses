@@ -1,6 +1,5 @@
-scoreboard players set max random 1
-function ewb:rng/lcg
-
 scoreboard players set event event 0
 
-execute unless score event event matches 1 if score result random matches 0 run function ewb:events/day/heat_wave/activate
+execute store result score random.output temp run random value 1..1
+
+execute unless score event event matches 1 if score random.output temp matches 1 run function ewb:events/day/heat_wave/activate

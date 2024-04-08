@@ -1,7 +1,7 @@
 {
 	"function": "minecraft:set_enchantments",
 	"enchantments": {
-		"minecraft:sweeping": 4
+		"minecraft:sweeping_edge": 4
 	},
 	"add": false,
 	"conditions": [
@@ -11,12 +11,14 @@
 			"predicate": {
 				"equipment": {
 					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sweeping",
-								"levels": 3
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantment": "minecraft:sweeping_edge",
+									"levels": 3
+								}
+							]
+						}
 					}
 				}
 			}

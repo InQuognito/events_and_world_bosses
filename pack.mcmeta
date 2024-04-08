@@ -1,6 +1,14 @@
 {
     "pack": {
         "pack_format": 26,
-        "description": "§6Events and World Bosses v0.66"
-    }
+        "description": "§6Events and World Bosses"
+    },
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "advancements/.*"
+			}
+		]
+	}
 }

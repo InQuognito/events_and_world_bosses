@@ -1,3 +1,3 @@
-data remove entity @s Item.tag.CustomModelData
-data remove entity @s Item.tag.display.Lore
-data remove entity @s Item.tag.Cosmetic
+data remove entity @s Item.components.minecraft:lore
+data remove entity @s Item.components.minecraft:custom_model_data
+data remove entity @s Item.components.minecraft:custom_data

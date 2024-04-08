@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"cec",
+		" c ",
+		"aga"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:amethyst_cluster"
+		},
+		"c": {
+			"item": "minecraft:copper_ingot"
+		},
+		"e": {
+			"item": "minecraft:end_crystal"
+		},
+		"g": {
+			"item": "minecraft:gold_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:stick",
+		"components": {
+			"minecraft:item_name": "{\"text\":\"Arcana Staff\",\"color\":\"yellow\"}",
+			"minecraft:lore": [
+				"{\"text\":\"- Relic -\",\"color\":\"gray\",\"italic\":false}",
+				"{\"text\":\"\"}",
+				"{\"text\":\"An expertly constructed staff.\",\"color\":\"gray\",\"italic\":false}",
+				"{\"text\":\"The fruition of countless hours of research.\",\"color\":\"gray\",\"italic\":false}",
+				"{\"text\":\"\"}",
+				"{\"text\":\"Does nothing on its own, but will make\",\"color\":\"dark_gray\",\"italic\":true}",
+				"{\"text\":\"a perfect receptacle for infusion.\",\"color\":\"dark_gray\",\"italic\":true}"
+			],
+			"minecraft:custom_model_data": 1
+		}
+	}
+}

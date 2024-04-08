@@ -9,7 +9,7 @@
 					"children": [
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
+							"name": "minecraft:paper",
 							"functions": [
 								{
 									"function": "minecraft:set_name",
@@ -25,19 +25,22 @@
 									"entity": "this",
 									"lore": [
 										{
-											"text": "-- Boss Cosmetic --",
+											"text": "Applies to: Helmets",
 											"color": "yellow",
 											"italic": false
 										},
 										{
-											"text": "A crown worn by a fallen king.",
-											"color": "aqua",
+											"text": "A trophy of a gelatin king.",
+											"color": "gray",
 											"italic": false
 										},
 										{
 											"text": "It's a little wet.",
-											"color": "aqua",
+											"color": "gray",
 											"italic": false
+										},
+										{
+											"text": ""
 										},
 										{
 											"text": "Right click to equip",
@@ -45,23 +48,28 @@
 											"italic": false
 										}
 									],
-									"replace": true
+									"mode": "replace_all"
 								},
 								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slime_crown],CustomModelData:10,Unbreakable:1,HideFlags:127}"
+									"function": "minecraft:set_components",
+									"components": {
+									}
+								},
+								{
+									"function": "minecraft:set_custom_data",
+									"tag": "{cosmetic:[slime_crown]}"
 								}
 							]
 						},
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
+							"name": "minecraft:paper",
 							"functions": [
 								{
 									"function": "minecraft:set_name",
 									"entity": "this",
 									"name": {
-										"text": "Slimy Sword",
+										"text": "Slime Sword",
 										"color": "gold",
 										"italic": false
 									}
@@ -71,19 +79,17 @@
 									"entity": "this",
 									"lore": [
 										{
-											"text": "-- Boss Cosmetic --",
+											"text": "Applies to: Swords",
 											"color": "yellow",
 											"italic": false
 										},
 										{
-											"text": "A sword covered in slime.",
-											"color": "aqua",
+											"text": "Ooze seems to perpetually fall from the blade.",
+											"color": "gray",
 											"italic": false
 										},
 										{
-											"text": "It's a little wet.",
-											"color": "aqua",
-											"italic": false
+											"text": ""
 										},
 										{
 											"text": "Right click to equip",
@@ -91,23 +97,28 @@
 											"italic": false
 										}
 									],
-									"replace": true
+									"mode": "replace_all"
 								},
 								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slimy_sword],CustomModelData:18,Unbreakable:1,HideFlags:127}"
+									"function": "minecraft:set_components",
+									"components": {
+									}
+								},
+								{
+									"function": "minecraft:set_custom_data",
+									"tag": "{cosmetic:[slimy_sword]}"
 								}
 							]
 						},
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
+							"name": "minecraft:paper",
 							"functions": [
 								{
 									"function": "minecraft:set_name",
 									"entity": "this",
 									"name": {
-										"text": "Slimy Pickaxe",
+										"text": "Slime Axe",
 										"color": "gold",
 										"italic": false
 									}
@@ -117,19 +128,17 @@
 									"entity": "this",
 									"lore": [
 										{
-											"text": "-- Boss Cosmetic --",
+											"text": "Applies to: Axes",
 											"color": "yellow",
 											"italic": false
 										},
 										{
-											"text": "A pickaxe covered in slime.",
+											"text": "Woodcutting application is questionable.",
 											"color": "aqua",
 											"italic": false
 										},
 										{
-											"text": "It's a little wet.",
-											"color": "aqua",
-											"italic": false
+											"text": ""
 										},
 										{
 											"text": "Right click to equip",
@@ -137,149 +146,16 @@
 											"italic": false
 										}
 									],
-									"replace": true
+									"mode": "replace_all"
 								},
 								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slimy_pickaxe],CustomModelData:14,Unbreakable:1,HideFlags:127}"
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
-							"functions": [
-								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Axe",
-										"color": "gold",
-										"italic": false
+									"function": "minecraft:set_components",
+									"components": {
 									}
 								},
 								{
-									"function": "minecraft:set_lore",
-									"entity": "this",
-									"lore": [
-										{
-											"text": "-- Boss Cosmetic --",
-											"color": "yellow",
-											"italic": false
-										},
-										{
-											"text": "An axe covered in slime.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "It's a little wet.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "Right click to equip",
-											"color": "light_purple",
-											"italic": false
-										}
-									],
-									"replace": true
-								},
-								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slimy_axe],CustomModelData:2,Unbreakable:1,HideFlags:127}"
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
-							"functions": [
-								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Shovel",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
-									"function": "minecraft:set_lore",
-									"entity": "this",
-									"lore": [
-										{
-											"text": "-- Boss Cosmetic --",
-											"color": "yellow",
-											"italic": false
-										},
-										{
-											"text": "A shovel covered in slime.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "It's a little wet.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "Right click to equip",
-											"color": "light_purple",
-											"italic": false
-										}
-									],
-									"replace": true
-								},
-								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slimy_shovel],CustomModelData:17,Unbreakable:1,HideFlags:127}"
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:carrot_on_a_stick",
-							"functions": [
-								{
-									"function": "minecraft:set_name",
-									"entity": "this",
-									"name": {
-										"text": "Slimy Hoe",
-										"color": "gold",
-										"italic": false
-									}
-								},
-								{
-									"function": "minecraft:set_lore",
-									"entity": "this",
-									"lore": [
-										{
-											"text": "-- Boss Cosmetic --",
-											"color": "yellow",
-											"italic": false
-										},
-										{
-											"text": "A hoe covered in slime.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "It's a little wet.",
-											"color": "aqua",
-											"italic": false
-										},
-										{
-											"text": "Right click to equip",
-											"color": "light_purple",
-											"italic": false
-										}
-									],
-									"replace": true
-								},
-								{
-									"function": "minecraft:set_nbt",
-									"tag": "{cosmetic:[slimy_hoe],CustomModelData:18,Unbreakable:1,HideFlags:127}"
+									"function": "minecraft:set_custom_data",
+									"tag": "{cosmetic:[slimy_axe]}"
 								}
 							]
 						}
@@ -288,11 +164,14 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "ewb:ancient_tomes"
+					"value": "ewb:items/relics/ancient_tome"
 				}
 			]
 		},

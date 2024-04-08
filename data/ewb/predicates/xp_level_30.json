@@ -2,7 +2,8 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"player": {
+		"type_specific": {
+			"type": "minecraft:player",
 			"level": {
 				"min": 30
 			}

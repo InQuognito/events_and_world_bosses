@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:advancement_reward",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Prototype Glider",
+								"color": "gold",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Applies to: Elytras",
+									"color": "yellow",
+									"italic": false
+								},
+								{
+									"text": "The culmination of countless",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "hours of flight research.",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": ""
+								},
+								{
+									"text": "Right click to equip",
+									"color": "light_purple",
+									"italic": false
+								},
+								{
+									"text": ""
+								},
+								{
+									"text": "Made by: ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Cubic_Wanderer",
+											"color": "aqua",
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 1
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{cosmetic:[prototype_glider]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

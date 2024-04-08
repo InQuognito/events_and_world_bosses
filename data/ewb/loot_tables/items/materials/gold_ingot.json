@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									"{\"text\":\"- Material -\",\"color\":\"gray\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"An almost completely pure piece of gold.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"Shines with a brilliant luster.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"Has extremely potent enchantment retention.\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"Highly valuable in the research and\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"production of thaumic apparatus.\",\"color\":\"dark_gray\",\"italic\": true}"
+								],
+								"minecraft:max_stack_size": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

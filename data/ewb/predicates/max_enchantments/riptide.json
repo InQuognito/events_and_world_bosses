@@ -4,12 +4,11 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"enchantments": [
-					{
-						"enchantment": "minecraft:riptide",
-						"levels": 3
+				"components": {
+						"minecraft:enchantments": {
+							"minecraft:riptide": 3
 					}
-				]
+				}
 			}
 		}
 	}

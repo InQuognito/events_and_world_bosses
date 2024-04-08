@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"text": "Aspect of Shadow",
+								"color": "dark_purple",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Simply being in the presence of this object",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "fills you with a looming sense of dread.",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": ""
+								},
+								{
+									"text": "Can be combined with an ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Arcana Staff",
+											"color": "yellow"
+										}
+									]
+								},
+								{
+									"text": "to attune it with ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Darkness",
+											"color": "dark_purple"
+										}
+									]
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_stack_size": 1
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{aspect_of_darkness:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

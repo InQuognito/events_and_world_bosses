@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{relic:[ancient_tome]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ewb:relics/ancient_tome/activate"
+	}
+}

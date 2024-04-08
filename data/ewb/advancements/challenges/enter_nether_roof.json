@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bedrock"
+			"id": "minecraft:bedrock"
 		},
 		"title": {
 			"text": "Breakthrough",
@@ -16,7 +16,6 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "minecraft:nether/root",
 	"criteria": {
 		"above_nether_roof": {
 			"trigger": "minecraft:location",

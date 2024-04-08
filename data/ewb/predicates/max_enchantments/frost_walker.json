@@ -4,12 +4,11 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"enchantments": [
-					{
-						"enchantment": "minecraft:frost_walker",
-						"levels": 2
+				"components": {
+						"minecraft:enchantments": {
+							"minecraft:frost_walker": 2
 					}
-				]
+				}
 			}
 		}
 	}

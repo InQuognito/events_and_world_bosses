@@ -1,0 +1,32 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"text\":\"Rotten Flesh\",\"color\":\"#836953\"}",
+								"minecraft:lore": [
+									"{\"text\":\"- Material -\",\"color\":\"gray\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"A decaying chunk of flesh.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"The smell is almost unbearable.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"This flesh peels off of the living dead.\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"Studying its properties may be the key to\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"unlocking the key to enslaving Death himself.\",\"color\":\"dark_gray\",\"italic\": true}"
+								],
+								"minecraft:max_stack_size": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

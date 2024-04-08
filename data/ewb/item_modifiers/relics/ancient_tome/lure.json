@@ -11,12 +11,14 @@
 			"predicate": {
 				"equipment": {
 					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:lure",
-								"levels": 3
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantment": "minecraft:lure",
+									"levels": 3
+								}
+							]
+						}
 					}
 				}
 			}

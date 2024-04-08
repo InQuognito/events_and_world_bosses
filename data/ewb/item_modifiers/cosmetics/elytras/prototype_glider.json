@@ -1,0 +1,41 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Cosmetic: ",
+				"color": "green",
+				"italic": false,
+				"extra": [
+					{
+						"text": "Prototype Elytra",
+						"color": "gold",
+						"italic": false
+					}
+				]
+			},
+			{
+				"text": "Made by Cubic_Wanderer",
+				"color": "yellow",
+				"italic": false
+			},
+			{
+				"text": "Drop to remove cosmetic",
+				"color": "light_purple",
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 1
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{cosmetic:[prototype_glider],cosmetic_applied:1b}"
+	}
+]

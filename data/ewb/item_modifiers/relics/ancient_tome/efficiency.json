@@ -11,12 +11,14 @@
 			"predicate": {
 				"equipment": {
 					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantment": "minecraft:efficiency",
+									"levels": 5
+								}
+							]
+						}
 					}
 				}
 			}

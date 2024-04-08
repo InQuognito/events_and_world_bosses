@@ -1,4 +1,4 @@
-scoreboard players reset * event
+scoreboard players reset * ewb.event
 function ewb:logic/init/schedule
 
 tellraw @a {"text":"The storm lifts...","color":"gray"}

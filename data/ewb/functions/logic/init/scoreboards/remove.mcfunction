@@ -1,8 +1,9 @@
-scoreboard objectives remove const
-scoreboard objectives remove event
-scoreboard objectives remove select_cosmetic
-scoreboard objectives remove temp
-scoreboard objectives remove timer
-scoreboard objectives remove use_relic
-
-#scoreboard objectives remove stats.fly_distance
+#scoreboard objectives remove ewb.cooldown
+scoreboard objectives remove ewb.const
+scoreboard objectives remove ewb.event
+scoreboard objectives remove ewb.motion_x
+scoreboard objectives remove ewb.motion_y
+scoreboard objectives remove ewb.motion_z
+scoreboard objectives remove ewb.temp
+scoreboard objectives remove ewb.timer
+#scoreboard objectives remove ewb.stats.fly_distance

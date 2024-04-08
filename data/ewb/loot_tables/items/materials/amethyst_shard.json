@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"text\":\"Amethyst Shard\",\"color\":\"#b19cd9\"}",
+								"minecraft:lore": [
+									"{\"text\":\"- Material -\",\"color\":\"gray\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"A small shard of amethyst.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"You can almost hear a faint chime from within.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"Not large enough to be useful in thaumaturgy,\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"but may have more practical applications.\",\"color\":\"dark_gray\",\"italic\": true}"
+								],
+								"minecraft:max_stack_size": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

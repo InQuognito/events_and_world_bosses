@@ -4,9 +4,11 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"enchantments": [
-					{}
-				]
+				"predicates": {
+					"minecraft:enchantments": [
+						{}
+					]
+				}
 			}
 		}
 	}

@@ -4,12 +4,11 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"enchantments": [
-					{
-						"enchantment": "minecraft:feather_falling",
-						"levels": 4
+				"components": {
+						"minecraft:enchantments": {
+							"minecraft:feather_falling": 4
 					}
-				]
+				}
 			}
 		}
 	}

@@ -2,452 +2,116 @@
 	"condition": "minecraft:any_of",
 	"terms": [
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/bane_of_arthropods"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/blast_protection"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/efficiency"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/feather_falling"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/fire_aspect"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/fire_protection"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/fortune"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker",
-								"levels": 2
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/frost_walker"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:impaling",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/impaling"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:knockback",
-								"levels": 2
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/knockback"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:looting",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/looting"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:loyalty",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/loyalty"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:luck_of_the_sea",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/luck_of_the_sea"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:lure",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/lure"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:piercing",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/piercing"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:power",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/power"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/projectile_protection"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/protection"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:punch",
-								"levels": 2
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/punch"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:quick_charge",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/quick_charge"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:respiration",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/respiration"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:riptide",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/riptide"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sharpness",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/sharpness"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:smite",
-								"levels": 5
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/smite"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/soul_speed"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sweeping",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/sweeping_edge"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:thorns",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/thorns"
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							}
-						]
-					}
-				}
-			}
+			"condition": "minecraft:reference",
+			"name": "ewb:max_enchantments/unbreaking"
 		}
 	]
 }

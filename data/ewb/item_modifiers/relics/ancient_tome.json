@@ -4,7 +4,7 @@
 		"entity": "this",
 		"name": {
 			"text": "|",
-			"color": "red",
+			"color": "yellow",
 			"italic": false,
 			"obfuscated": true,
 			"extra": [
@@ -27,12 +27,12 @@
 		"lore": [
 			{
 				"text": "A powerful artifact that can unleash",
-				"color": "aqua",
+				"color": "gray",
 				"italic": false
 			},
 			{
 				"text": "an enchanted item's true potential.",
-				"color": "aqua",
+				"color": "gray",
 				"italic": false
 			},
 			{
@@ -51,10 +51,19 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1}"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 1,
+			"minecraft:max_stack_size": 1,
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": 0,
+				"can_always_eat": true,
+				"eat_seconds": 1000000
+			}
+		}
 	}
 ]

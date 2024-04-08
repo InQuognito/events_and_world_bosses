@@ -11,12 +11,14 @@
 			"predicate": {
 				"equipment": {
 					"offhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantment": "minecraft:soul_speed",
+									"levels": 3
+								}
+							]
+						}
 					}
 				}
 			}

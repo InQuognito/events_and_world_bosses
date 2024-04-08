@@ -1,0 +1,43 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"ewb.cooldown": {
+								"max": 0
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "minecraft:player",
+								"level": {
+									"min": 5
+								}
+							},
+							"flags": {
+								"is_sneaking": false
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{relic:[arcana_staff,fire]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ewb:relics/arcana_staff/fire/fireball/activate"
+	}
+}

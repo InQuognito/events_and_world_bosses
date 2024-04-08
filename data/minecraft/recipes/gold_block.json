@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:gold_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:gold_block",
+		"count": 1,
+		"components": {
+			"minecraft:item_name": "{\"text\":\"Block of Gold\",\"color\":\"#fdfd96\"}",
+			"minecraft:lore": [
+				"{\"text\":\"- Block -\",\"color\":\"gray\",\"italic\":false}",
+				"{\"text\":\"\"}",
+				"{\"text\":\"An extremely dense cube of gold.\",\"color\":\"gray\",\"italic\": false}",
+				"{\"text\":\"Amazingly, it feels almost weightless.\",\"color\":\"gray\",\"italic\": false}",
+				"{\"text\":\"\"}",
+				"{\"text\":\"This amount of gold will most likely\",\"color\":\"dark_gray\",\"italic\": true}",
+				"{\"text\":\"not prove useful in thaumic endeavors.\",\"color\":\"dark_gray\",\"italic\": true}",
+				"{\"text\":\"Storage determined to be the most practical use.\",\"color\":\"dark_gray\",\"italic\": true}"
+			],
+			"minecraft:max_stack_size": 99
+		}
+	}
+}

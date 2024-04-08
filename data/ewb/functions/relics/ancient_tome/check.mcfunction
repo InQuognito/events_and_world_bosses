@@ -1,3 +1,1 @@
-$execute if entity @s[nbt={SelectedItem:{tag:{Relic:[$(enchantment)]}}}] if predicate ewb:max_enchantments/$(enchantment) run tag @s add $(enchantment)
-
-function ewb:relics/ancient_tome/apply {enchantment:"$(enchantment)"}
+$execute unless score success ewb.temp matches 1 if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{relic:[$(enchantment)]}}}},predicate=ewb:max_enchantments/$(enchantment)] run function ewb:relics/ancient_tome/apply {enchantment:"$(enchantment)"}

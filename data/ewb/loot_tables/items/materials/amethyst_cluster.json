@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_cluster",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"text\":\"Amethyst Cluster\",\"color\":\"#b19cd9\"}",
+								"minecraft:lore": [
+									"{\"text\":\"- Material -\",\"color\":\"gray\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"A concentrated collection of amethyst.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"You can almost see something moving within.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"Allowing the amethyst to grow to full size gives\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"the object remarkable thaumaturgic properties.\",\"color\":\"dark_gray\",\"italic\": true}"
+								],
+								"minecraft:max_stack_size": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 {
-	"parent": "ewb:utility/root",
+	"parent": "ewb:utility/roots/utility",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:player_killed_entity",
@@ -13,7 +13,7 @@
 								"type": "minecraft:fixed",
 								"name": "slime_rain"
 							},
-							"score": "event"
+							"score": "ewb.event"
 						},
 						"range": 1
 					}

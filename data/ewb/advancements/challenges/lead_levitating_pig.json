@@ -1,5 +1,8 @@
 {
 	"display": {
+		"icon": {
+			"id": "minecraft:lead"
+		},
 		"title": {
 			"text": "An Odd Balloon",
 			"color": "gold"
@@ -7,9 +10,6 @@
 		"description": {
 			"text": "Carry a pig by a lead... while it is levitating.",
 			"color": "green"
-		},
-		"icon": {
-			"item": "minecraft:lead"
 		},
 		"frame": "challenge",
 		"show_toast": true,
@@ -38,6 +38,5 @@
 				}
 			}
 		}
-	},
-	"parent": "minecraft:end/levitate"
+	}
 }

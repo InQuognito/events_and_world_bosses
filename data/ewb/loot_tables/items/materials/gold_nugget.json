@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"text\":\"Gold Nugget\",\"color\":\"#fdfd96\"}",
+								"minecraft:lore": [
+									"{\"text\":\"- Material -\",\"color\":\"gray\",\"italic\":false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"A small fragment of gold.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"You sense a wisdom deep within.\",\"color\":\"gray\",\"italic\": false}",
+									"{\"text\":\"\"}",
+									"{\"text\":\"Not large enough to be useful in thaumaturgy,\",\"color\":\"dark_gray\",\"italic\": true}",
+									"{\"text\":\"but may have more practical applications.\",\"color\":\"dark_gray\",\"italic\": true}"
+								],
+								"minecraft:max_stack_size": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
